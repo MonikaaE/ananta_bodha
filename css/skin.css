@@ -52,7 +52,7 @@ main {
 
 /* Define New Brown Theme Colors */
 :root {
-  --neonBrown: #8b4513; /* Replace --neonBlue with --neonBrown */
+  --neonBrown: rgb(255, 191, 72); /* Replace --neonBlue with --neonBrown */
   --neonDarkBrown: #5c4033; /* Replace --neonViolet with --neonDarkBrown */
   --neonLightBrown: #4d3d28; /* Replace --neonPink with --neonLightBrown */
 }
