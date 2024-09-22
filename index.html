@@ -15,7 +15,76 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
-
+    <style>
+      /* Global styles for the countdown timer */
+      .time {
+          display: inline-block;
+          margin: 10px;
+          text-align: center;
+      }
+  
+      .time p {
+          font-size: 1.5rem;
+      }
+  
+      .time span {
+          font-size: 2rem;
+      }
+  
+      /* Media Query for screens smaller than 768px (Tablets, Mobile devices) */
+      @media (max-width: 768px) {
+          /* Adjust countdown spacing and font size */
+          .time p {
+              font-size: 1rem;  /* Smaller font for description */
+          }
+  
+          .time span {
+              font-size: 1.5rem;  /* Smaller font for the countdown */
+          }
+  
+          /* Stack countdown timers vertically for better display on mobile */
+          .time {
+              margin-bottom: 15px;
+              display: block;  /* Stack them vertically */
+          }
+      }
+  
+      /* Media Query for screens smaller than 576px (Mobile devices) */
+      @media (max-width: 576px) {
+          /* Further reduce the font size for smaller mobile devices */
+          .time p {
+              font-size: 0.9rem;  /* Even smaller description */
+          }
+  
+          .time span {
+              font-size: 1.2rem;  /* Even smaller countdown */
+          }
+  
+          /* Ensure the timer remains stacked */
+          .time {
+              display: block;
+              margin-bottom: 10px;
+          }
+      }
+  
+      /* Media Query for screens smaller than 400px (Extra small mobile devices) */
+      @media (max-width: 400px) {
+          /* Further compact countdown timer for very small screens */
+          .time p {
+              font-size: 0.8rem;  /* Further smaller description */
+          }
+  
+          .time span {
+              font-size: 1rem;  /* Further smaller countdown */
+          }
+  
+          /* Maintain vertical stacking */
+          .time {
+              display: block;
+              margin-bottom: 8px;
+          }
+      }
+  </style>
   </head>
 
   <body id="bdy">
@@ -165,7 +234,7 @@
       <h3 class="myHeader extraBold gradient0" style="margin-bottom: 3rem">Paper Presentation</h3>
       <div id="paperpresentation" class="myFlex centerFlex">
         <div class="column2flex">
-          <img src="./img/page0/eventima" class="columnImage" />
+          <h5 class="columnImage gradient3" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vel placeat maxime tenetur quasi, exercitationem, distinctio non pariatur, reiciendis ullam ad excepturi natus possimus ipsum numquam architecto neque alias iure.</h5>
           <div class="myFlex centerFlex columnText">
             <p><br /><button onclick="window.location.assign('./page0.html')" class=" extraBold knowmore1" style="margin: 1rem">Know more</button></p>
           </div>
