@@ -6,7 +6,7 @@
 
 /* Navbar Styling */
 .navbar {
-  position: fixed;
+  position: absolute;
   top: 0; /* Fixes the navbar to the top */
   left: 0;
   width: 100%; /* Makes sure the navbar spans the full width */
